@@ -6,7 +6,6 @@
     flex-direction: column;
     gap: 30px;
   }
-}
 .about-section{
     padding: 100px 100px 20px 100px;
     font-size: 20px;
@@ -56,4 +55,5 @@
 }
 .project-info{
     background-color: red;
+}
 }
