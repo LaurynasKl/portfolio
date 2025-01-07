@@ -41,5 +41,19 @@
 }
 .learn{
     color: white;
+}
 
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.project-photo img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.project-info{
+    background-color: red;
 }
