@@ -5,7 +5,7 @@
     bottom: 0;
     left: 0;
     width: 550px;
-    background-color: #6b796f;
+    background-color: #885E6B;
   }
   .profile-section {
     margin-top: 50px;
@@ -53,7 +53,7 @@
   }
   .nav-items a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
   }
   .nav-items a:hover {
     text-decoration: underline;
@@ -82,7 +82,7 @@
     height: 2000px;
   }
   .sidebar {
-    background-color: #6b796f;
+    /* background-color: #65404A; */
     padding: 10px 0;
   }
   .profile {
