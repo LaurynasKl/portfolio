@@ -5,7 +5,10 @@
     bottom: 0;
     left: 0;
     width: 550px;
-    background-color: #885E6B;
+    /* background-color: #7F8C8D; */
+    background: linear-gradient(0deg, rgba(35,49,93,1) 0%, rgba(60,60,185,1) 100%);
+
+    
   }
   .profile-section {
     margin-top: 50px;
@@ -15,18 +18,21 @@
     justify-content: center;
     align-items: center;
   }
-
+  
   .profile-picture {
     height: 170px;
     object-fit: cover;
     border-radius: 80px;
   }
+  .profile div {
+    margin-left: 20px;
+  }
 
   .name {
     display: flex;
     align-items: center;
-    margin-left: 15px;
-    font-size: 30px;
+    font-size: 32px;
+    margin-bottom: 10px;
   }
   .introduction p {
     margin-top: 20px;

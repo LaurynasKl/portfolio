@@ -1,12 +1,15 @@
 @media (min-width: 940px) {
   main {
-   
     padding-left: 560px;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    background-color: #744D58;
-
+    /* background-color: #7F8C8D; */
+    background: linear-gradient(
+      0deg,
+      rgba(35, 49, 93, 1) 0%,
+      rgba(60, 60, 185, 1) 100%
+    );
   }
   .about-section {
     margin: 100px 100px 0 100px;
@@ -18,7 +21,12 @@
   }
   .about-section:hover {
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0, 0.4);
-    background-color: #65404A;
+    /* background-color: #65404A; */
+    background: linear-gradient(
+      0deg,
+      rgba(35, 49, 93, 1) 0%,
+      rgba(60, 60, 185, 1) 100%
+    );
   }
   .education-section {
     display: flex;
@@ -31,7 +39,12 @@
   }
   .education-section:hover {
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0, 0.4);
-    background-color: #65404A;
+    /* background-color: #65404A; */
+    background: linear-gradient(
+      0deg,
+      rgba(35, 49, 93, 1) 0%,
+      rgba(60, 60, 185, 1) 100%
+    );
   }
   .about {
     display: flex;
@@ -52,7 +65,7 @@
     color: white;
   }
 
-  .language-section{
+  .language-section {
     /* color: white; */
     margin: 0 100px 20px 100px;
     padding: 30px;
@@ -62,23 +75,28 @@
   }
   .language-section:hover {
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0, 0.4);
-    background-color: #65404A;
+    /* background-color: #65404A; */
+    background: linear-gradient(
+      0deg,
+      rgba(35, 49, 93, 1) 0%,
+      rgba(60, 60, 185, 1) 100%
+    );
   }
 
-.experience{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-.expertise{
-  margin-bottom: 20px;
-  color: black;
-  font-size: 28px;
-}
-.expertise div{
-  margin-top: 20px;
-  /* color: white; */
-  font-size: 20px;
-}
+  .experience {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .expertise {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 28px;
+  }
+  .expertise div {
+    margin-top: 20px;
+    /* color: white; */
+    font-size: 20px;
+  }
   .projects {
     display: flex;
     margin: 40px 100px;
@@ -89,7 +107,12 @@
   }
   .projects:hover {
     box-shadow: 0px 0px 10px 3px rgb(0, 0, 0, 0.4);
-    background-color: #65404A;
+    /* background-color: #65404A; */
+    background: linear-gradient(
+      0deg,
+      rgba(35, 49, 93, 1) 0%,
+      rgba(60, 60, 185, 1) 100%
+    );
   }
   .project-photo img {
     width: 150px;
@@ -106,7 +129,12 @@
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-    /* gap: 40px; */
+  }
+  .project-name a {
+    text-decoration: none;
+  }
+  .project-name a:hover {
+    text-decoration: underline;
   }
   .project-about {
     margin: 2px 0 15px 0;
@@ -117,7 +145,7 @@
     flex-wrap: wrap;
   }
   .project-language div {
-    background-color: purple;
+    background-color: rgb(27, 37, 97);
     padding: 5px 7px;
     border: 1px solid black;
     border-radius: 10px;
